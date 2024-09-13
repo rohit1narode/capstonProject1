@@ -1,0 +1,17 @@
+[
+    {
+        "username" : "Rohit1",
+        "password" : "Rohit@123",
+        "expected" : "This user already exist."
+    },
+    {
+        "username" : " ",
+        "password" : " ",
+        "expected" : "Please fill out Username and Password."
+    },
+    {
+        "username" : "Rohit1",
+        "password" : "123",
+        "expected" : "Password must be at least 8 characters"
+    }
+]
